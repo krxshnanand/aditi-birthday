@@ -1,0 +1,39 @@
+.lock, .love {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #ff758c, #ff7eb3);
+  color: white;
+  text-align: center;
+}
+
+.lock input {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.lock button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  background: white;
+  color: #ff4b5c;
+  cursor: pointer;
+}
+
+.love h1 {
+  font-size: 3em;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
